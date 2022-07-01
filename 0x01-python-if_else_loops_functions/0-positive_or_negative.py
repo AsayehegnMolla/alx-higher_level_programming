@@ -4,4 +4,4 @@ number = random.randint(-10,10)
 if number > 0:
 	print(number, end=" is postive")
 elif number < 0:
-	print(number, end-" is negative")
+	print(number, end=" is negative")
