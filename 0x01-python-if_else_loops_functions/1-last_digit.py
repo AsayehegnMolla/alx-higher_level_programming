@@ -5,8 +5,6 @@ if number < 0:
     digit = number % -10
 else:
     digit = number % 10
-
-
 if digit == 0:
     print("Last digit of", number, "is", digit, "and is 0")
 elif digit % 10 < 6 and digit != 0:
